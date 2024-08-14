@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Aruneshkumar07/Student-details-using-ReactJS/static/css/main.95c068c6.css",
+    "main.js": "/Aruneshkumar07/Student-details-using-ReactJS/static/js/main.dcc64166.js",
+    "index.html": "/Aruneshkumar07/Student-details-using-ReactJS/index.html",
+    "main.95c068c6.css.map": "/Aruneshkumar07/Student-details-using-ReactJS/static/css/main.95c068c6.css.map",
+    "main.dcc64166.js.map": "/Aruneshkumar07/Student-details-using-ReactJS/static/js/main.dcc64166.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95c068c6.css",
+    "static/js/main.dcc64166.js"
+  ]
+}
