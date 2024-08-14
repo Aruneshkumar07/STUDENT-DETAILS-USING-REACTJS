@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-color: blanchedalmond;
+  margin: 0px;
+  padding: 0px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#nav{
+  display: flex;
+  background-color: rgb(144, 98, 61);
+  justify-content: center;
+  margin-top: 0px;
+  /* padding: 20px; */
+}
+#nav a{
+  flex: 1;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  padding: 25px;
+  
+}
+#nav a:hover{
+  box-shadow: 5px 5px 30px  black;
+  font-size: xx-large;
+}
+#image1{
+  height: 90px;
+  width: 120px;
+
+}
+#Footer{
+  bottom: 0px;
+  background-color: rgba(144, 98, 61, 0.842);
+  width: 100%;
+  display: grid; 
+  /* text-align: center; */
+  font-size: xx-large;
+  color: white;
+  padding-left: 50px;
+}
+#table{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+table,td,tr,th{
+  border: 2px black solid;
+  border-collapse: collapse;
+  font-size:large;
+  padding: 40px;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  font-size:30px;
+  margin: 40px 395px ;
+  padding: 40px;
+  background-color: #b28962;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+#input{
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 10%;
+}
+#label{
+  margin-bottom: 300px;
+}
+button{
+  margin-top: 30px;
+  width: 50%;
+  font-size: 20px;
+  background-color:rgb(138, 83, 38);
+  color: white;
+}
+button:hover{
+background-color:white;
+color: rgb(138, 83, 38);
+transition: 0.5s;
+}
